@@ -13,10 +13,52 @@ body {
 }
 
 /* ===== Common ===== */
-.content {
-    display: flex;
+.content {  
     margin-left: 135px;
     margin-right: 135px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yellow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 50px;
+    border-radius: 25px;
+    background: #FFB900;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86714;
+}
+
+.black-btn {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 50px;
+    border-radius: 25px;
+    background: #171100;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86714; /* 185.714% */
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 /* ===== Nav Bar ===== */
@@ -228,11 +270,128 @@ body {
     margin-right: 15px;
 }
 
+/* ===== Pop Course ===== */
+.popcourses {
+    margin-bottom: 200px;
+}
+
+.popcourses .content  {
+    margin-top: 200px;
+}
+
+
+.popcourses .content .introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popcourses .content .introduction .sub-title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+    padding-bottom: 16px;
+}
+
+.popcourses .content .introduction .desc {
+    width: 458px;
+
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66; /* 166.667% */
+}
+
+.popcourses .content .course-moving {
+    display: flex;
+    
+}
+
+.popcourses .content .course-moving .move-btn {
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+}
+/* ===== List Course ===== */
+.popcourses .body {
+    padding: 22px;
+}
+
+.popcourses .list {
+    display: flex;
+    margin-top: 22px;
+}
+.popcourses .list .item {
+    width: 370px;
+    height: 466px;
+    border-radius: 12px;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 30px;
+}
+
+.popcourses .list .item:hover {
+    box-shadow: 0px 18px 36px 0px  rgba(255, 185, 0, 0.35);
+}
+
+.popcourses .list .course-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popcourses .list .pointed {
+    color: #FEA31B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    padding-left: 6px;
+}
+
+.popcourses .list .item .thump {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.popcourses .list .item .course-name {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+
+.popcourses .list .item .desc {
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.popcourses .list .item .price {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66666; /* 166.667% */
+
+    padding-top: 22px;;
+}
 
 
 
-
-/* ===== ... ===== */
 
 /* ===== ... ===== */
 
