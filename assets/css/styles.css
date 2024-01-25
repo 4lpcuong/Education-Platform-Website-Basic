@@ -336,6 +336,7 @@ h2 {
 
 .popcourses .list {
     display: flex;
+    justify-content: center;
     margin-top: 22px;
 }
 .popcourses .list .item {
@@ -660,4 +661,118 @@ h2 {
 .moving-blogs .moving-btn:hover{
     background-color: wheat;
 }
+
+/* ===== Footer ===== */
+footer {
+    background-color: #2E2100;
+}
+
+footer .content {
+    padding-top: 96px;
+}
+
+footer .content .menu-footer {
+    display: flex;
+    justify-content: center;
+}
+footer .footer-info  {
+    max-width: 267px;
+    margin-right: 145px;
+}
+
+footer .footer-info .desc {
+    margin-top:  18px;
+    margin-bottom: 18px;
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px; 
+    min-width: 267px;
+}
+
+footer .footer-info .social {
+    display: flex;
+    justify-content: space-between;
+    width: 111px;
+}
+
+
+footer .list .title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+footer .list {
+    max-width: 237px;
+    margin-right: 130px;
+    margin-bottom: 38px;
+}
+
+footer .list:last-child {
+    margin-right: 0px;
+    margin-bottom: 38px;
+}
+footer .list .separate {
+    width: 130px;
+    height: 1px;
+    background: #59554B;
+    margin-top: 14px;
+    margin-bottom: 28px;
+}
+
+footer .menu {
+    display: flex;
+}
+footer .list .item a {
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+    margin-bottom: 12px;
+    text-wrap: pretty;
+}
+
+footer .list .item a:hover {
+    opacity: 0.8;
+}
+
+footer .list .item b {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 185.714% */
+}
+
+footer .content .footer-footer .separate {
+    width: 1170px;
+    height: 1px;
+    background: #59554B;
+    margin-bottom: 28px;
+}
+
+footer .footer-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .content .copyrigh {
+    color: #807D74;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+    padding-bottom: 28px;
+}   
+
+
+
+
 
