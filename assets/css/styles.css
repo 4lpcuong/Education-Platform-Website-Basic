@@ -77,16 +77,19 @@ h2 {
     font-weight: 400;
     line-height: 1.75; /* 175% */
 }
-
-/* ===== Nav Bar ===== */
-.navbar {   
+/* ===== Header ===== */
+.header {
     background-color: #FFFCF4;
 }
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+/* ===== Nav Bar ===== */
 
 .navbar .content {
-    padding-top: 36px;
-
-    min-width: 1170px;
+    padding: 36px 0px 8px;
     height: 86px;
     display: flex;
     align-items: center;
